@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Reset minimal: gaya bawaan template Vite dihapus karena membuat judul
+   terlalu besar/pucat (mode gelap) dan membatasi lebar halaman (#root 1126px). */
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #fde68a;
+  color: #0f172a;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
